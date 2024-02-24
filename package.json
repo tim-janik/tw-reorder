@@ -1,0 +1,20 @@
+{
+  "name": "tw-reorder",
+  "version": "0.1.0",
+  "description": "Run prettier-plugin-tailwindcss from Emacs",
+  "license": "MPL-2.0",
+  "author": "Tim Janik",
+  "bugs": "https://github.com/tim-janik/tw-reorder/issues",
+  "homepage": "https://github.com/tim-janik/tw-reorder",
+  "repository": "github:tim-janik/tw-reorder.git",
+  "type": "module",
+  "files": [
+    "README.md",
+    "tw-reorder.el",
+    "tw-reorder.js"
+  ],
+  "dependencies": {
+    "prettier": "^3.2.5",
+    "prettier-plugin-tailwindcss": "^0.5.11"
+  }
+}
